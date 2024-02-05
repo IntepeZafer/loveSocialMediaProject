@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+}
+header{
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#leftSide{
+    width: 50%;
+    height: 100%;
+    background-image: url("../assets/image_one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+#leftSide .leftSideElement{
+    width: 60%;
+    height: 70%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.leftSideElement h1{
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+.leftSideTitle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.leftSideElement p{
+    color: #fff;
+    font-size: 1.2em;
+}
